@@ -1,1 +1,7 @@
+def game_instruction():
+  print("""Welcome to my wordle. 
+Every correct letter in the correct position will be "✔". 
+Every incorrect letter will be "❌".
+Every correct letter but in the wrong place will be "➕".  """)
 
+game_instruction()
