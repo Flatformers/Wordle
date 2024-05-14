@@ -5,7 +5,7 @@ Every incorrect letter will be "❌".
 Every correct letter but in the wrong place will be "➕".  """)
 
 def check_word():
-    hidden_word = "snail"
+    hidden_word = ["snail", "tiger", "shrek"]
     attempt = 6
     while attempt > 0:
         guess = str(input("Guess the word: "))
