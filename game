@@ -1,3 +1,4 @@
+import random
 def game_instruction():
   print("""Welcome to my wordle. 
 Every correct letter in the correct position will be "✔". 
@@ -5,7 +6,8 @@ Every incorrect letter will be "❌".
 Every correct letter but in the wrong place will be "➕".  """)
 
 def check_word():
-    hidden_word = ["snail", "tiger", "shrek"]
+    words = ["snail", "tiger", "shrek"]
+    hidden_word = words[random.randint(0, 3)]
     attempt = 6
     while attempt > 0:
         guess = str(input("Guess the word: "))
