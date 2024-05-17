@@ -1,5 +1,5 @@
 import random
-import words.txt
+import words.py
 def game_instruction():
   print("""Welcome to my wordle. 
 Every correct letter in the correct position will be "✔". 
